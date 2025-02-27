@@ -12,11 +12,14 @@
 
 
 @media (max-width: 800px){
+
+
     .main-container{
         display: flex;
         flex-direction: column;
         max-width: 350px;
         min-height: 700px;
+
     }
     
     .perfume{
@@ -55,6 +58,11 @@
     .perfume-mobile{
         display: none;
     }
+
+    .main-container{
+        margin-top: 150px;
+    }
+
 }
 
 
@@ -63,7 +71,6 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 150px;
 }
 
 label{
@@ -81,6 +88,7 @@ label{
    width: 650px;
    height: 455px;
    border-radius: 10px;
+   
 }
 
 h1{
